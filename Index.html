@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullying en México</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .top-section {
+            background-image: url('https://images.pexels.com/photos/1287142/pexels-photo-1287142.jpeg?cs=srgb&dl=pexels-eberhardgross-1287142.jpg&fm=jpg'); /* Cambia 'tu-imagen.jpg' por la ruta de tu imagen */
+            background-size: cover;
+            background-position: center;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .bottom-section {
+            background-color: #f0f0f0;
+            height: 50vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
+        .option {
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            color: rgb(0, 0, 0); /* Color del texto para que sea legible en el fondo */
+        }
+        .option:hover {
+            background-color: rgba(175, 135, 74, 0.993); /* Cambia el color del fondo al hacer hover */
+        }
+        .option.problemas {
+            background-image: url(''); /* Cambia 'fondo-problemas.jpg' por la ruta de tu imagen */
+        }
+        .option.caracteristicas {
+            background-image: url(''); /* Cambia 'fondo-caracteristicas.jpg' por la ruta de tu imagen */
+        }
+        .option.problemas-escuela {
+            background-image: url(''); /* Cambia 'fondo-problemas-escuela.jpg' por la ruta de tu imagen */
+        }
+        .option.traumas {
+            background-image: url(''); /* Cambia 'fondo-traumas.jpg' por la ruta de tu imagen */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-section">
+            <h1>Bullying en México</h1>
+            <p>Selecciona una opción para explorar más:</p>
+        </div>
+        <div class="bottom-section">
+            <div class="option problemas" onclick="location.href='problemas.html';">
+                <h2>Problemas relacionados al bullying</h2>
+            </div>
+            <div class="option caracteristicas" onclick="location.href='caracteristicas.html';">
+                <h2>Características del bullying</h2>
+            </div>
+            <div class="option problemas-escuela" onclick="location.href='problemas_escuela.html';">
+                <h2>Problemas dentro y fuera de la escuela</h2>
+            </div>
+            <div class="option traumas" onclick="location.href='traumas.html';">
+                <h2>Tipos de traumas</h2>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Nos enorgullece presentarte nuestra página dedicada al estudio y la concientización sobre el bullying en México. Aquí exploramos de manera profunda y detallada los diversos aspectos relacionados con este problema social que afecta a tantos jóvenes y familias en nuestro país. Desde los impactos psicológicos hasta las medidas preventivas y las políticas públicas, nuestro objetivo es ofrecer información relevante y herramientas para combatir esta problemática de manera efectiva.
+
+            Únete a nosotros en este viaje hacia un entendimiento más profundo del bullying y su impacto en nuestras comunidades. Juntos, podemos trabajar para crear entornos escolares y sociales más seguros y compasivos para todos. </p>
+        <p>&copy;2024 Dominic Valencia "CBTIS-106"</p>
+    </footer>
+</body>
+</html>
